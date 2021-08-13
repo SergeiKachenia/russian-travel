@@ -1,0 +1,6 @@
+.places {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    max-width: 984px;
+}
