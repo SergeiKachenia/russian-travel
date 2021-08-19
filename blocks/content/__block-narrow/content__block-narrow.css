@@ -1,0 +1,28 @@
+.content__block-narrow {
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+@media all and (max-width:1023px) {
+  .content__block-narrow {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width:767px) {
+  .content__block-narrow {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width:319px) {
+  .content__block-narrow {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+/*использовал данный контейнер преимущественно для выравнивания блока intro на десктопе. В контейнере _wide находится блок cover,
+чтобы можно было сделать картинку-бэк более резиновой (благодаря ширине 100% от этого блока)*/

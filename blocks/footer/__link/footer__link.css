@@ -1,0 +1,29 @@
+.footer__link {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s ease;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 112%;
+}
+
+.footer__link:hover {
+  opacity: 0.7
+}
+
+@media all and (max-width:670px) {
+  .footer__link {
+    font-size: 20px;
+    line-height: 100%;
+  }
+}
+
+@media all and (max-width:319px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 100%;
+  }
+}
+
+/*уменьшил текст два раза, чтобы выглядело симпатичнее на разрешениях меньше 670*/

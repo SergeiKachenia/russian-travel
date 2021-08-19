@@ -1,0 +1,35 @@
+.place__image {
+  grid-area: image;
+  max-width: 460px;
+  object-fit: contain;
+}
+
+@media all and (max-width:1023px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
+
+@media all and (max-width:767px) {
+  .place__image {
+    max-width: 340px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width:670px) {
+  .place__image {
+    max-width: 320px;
+    padding-bottom: 32px;
+    margin: 0;
+  }
+}
+
+@media all and (max-width:319px) {
+  .place__image {
+    margin: 0 auto;
+  }
+}
+
+/*указывал ширину картинки в пикселях, чтобы не вылезала за пределы экрана вплоть до 320 пикселей. На разрешении 670 пикселей убрал маржин ауто,
+чтобы блоки встали к левому краю, а не посередине*/

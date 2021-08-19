@@ -1,0 +1,28 @@
+.content__block-wide {
+  max-width: 1184px;
+  margin: 0 auto;
+}
+
+@media all and (max-width:1023px) {
+  .content__block-wide {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width:767px) {
+  .content__block-wide {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width:319px) {
+  .content__block-wide {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+/*см. блок content__block-narrow. В этом блоке находится блок cover для лучшей отзывчивости */
+

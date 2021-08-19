@@ -1,0 +1,42 @@
+.cover__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding: 0 0 32px;
+  max-width: 560px;
+  z-index: 3;
+  box-sizing: border-box;
+}
+
+@media all and (max-width:670px) {
+  .cover__title {
+    max-width: 560px;
+    font-size: 56px;
+    line-height: 106%;
+    padding: 0 0 26px;
+  }
+}
+
+@media all and (max-width:420px) {
+  .cover__title {
+    max-width: 80%;
+    font-size: 40px;
+    line-height: 109%;
+    padding: 0 0 20px;
+  }
+}
+
+@media all and (max-width:319px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 109%;
+    padding: 0 0 16px;
+  }
+}
+
+/*пришлось уменьшить текст аж три раза, чтобы выглядело более-менее приемлемо на малых разрешениях*/

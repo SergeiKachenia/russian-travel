@@ -1,6 +1,35 @@
 .places {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     justify-content: center;
+    padding: 0;
+    margin: 0 auto;
     max-width: 984px;
 }
+
+@media all and (max-width:1023px) {
+    .places {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width:767px) {
+    .places {
+        max-width: 93%;
+    }
+}
+
+@media all and (max-width:670px) {
+    .places {
+        max-width: 93%;
+    }
+}
+@media all and (max-width:319px) {
+    .places {
+        max-width: 90%;
+
+        }
+    }
+
+/*общий блок для всех мест, одна колонка, указал максимальную ширину для десктопа в пикселях, т.к. делал ее первой, дальше пошли проценты*/

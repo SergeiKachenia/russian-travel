@@ -1,3 +1,23 @@
 .header__links {
     padding: 46px 48px 0 0;
 }
+
+@media all and (max-width:1023px) {
+    .header__links {
+        margin-bottom: 48px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .header__links {
+        padding: 46px 24px 0 0;
+    }
+}
+
+@media all and (max-width:319px) {
+    .header__links {
+        padding: 30px 16px 0 0;
+    }
+}
+
+/*сформировал ссылки в единый блок для флекса*/

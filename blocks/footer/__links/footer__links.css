@@ -1,0 +1,27 @@
+.footer__links {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(min-content, max-content));
+  grid-template-rows: minmax(min-content, max-content);
+  list-style-type: none;
+  color: white;
+  padding: 0;
+  margin: 0;
+  gap: 18px;
+}
+
+@media all and (max-width:670px) {
+  .footer__links {
+    grid-template-columns: minmax(min-content, max-content);
+    gap: 26px;
+    margin-bottom: 40px;
+  }
+}
+
+@media all and (max-width:319px) {
+  .footer__links {
+    gap: 32px;
+    margin-bottom: 48px;
+  }
+}
+
+/*решил изменить футер уже с разрешения 670, т.к. элементы накладываются друг на друга на разрешении меньше 670*/

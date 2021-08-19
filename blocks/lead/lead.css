@@ -5,3 +5,23 @@
     margin: 0 auto;
     max-width: 984px;
 }
+
+@media all and (max-width:1023px) {
+    .lead {
+        max-width: 90%;
+    }
+}
+
+@media all and (max-width:767px) {
+    .lead {
+        max-width: 768px;
+    }
+}
+
+@media all and (max-width:319px) {
+    .lead {
+        max-width: 90%;
+    }
+}
+/*указал ширину для монитора в пикселях, остальное в процентах. На разрешении 768 пикселей так не получилось, поскольку картинка должна быть шире, чем остальные элементы,
+поэтому указал в пикселях. */

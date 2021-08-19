@@ -1,0 +1,38 @@
+.place__paragraph {
+  grid-area: paragraph;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0;
+  padding: 0;
+  max-width: 484px;
+}
+
+.place__paragraph:first-of-type {
+  margin-bottom: 26px;
+}
+
+@media all and (max-width:1023px) {
+  .place__paragraph {
+    max-width: 456px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width:767px) {
+  .place__paragraph {
+    font-size: 16px;
+    margin: 0;
+  }
+}
+
+@media all and (max-width:319px) {
+  .place__paragraph {
+    max-width: 288px;
+    margin: 0;
+  }
+}
+
+

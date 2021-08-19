@@ -1,0 +1,13 @@
+.cover__background {
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 62.5vw;
+  max-width: 100%;
+  z-index: 1;
+  background-position: center;
+}
+
+/* Решил использовать микс cover и background, не знаю, правильно ли это. Долго не понимал как сделать резиновый фон-картинку, пытался с помощью падддинга, но текст съезжает.
+Установил пропорциональное соответствие между шириной и высотой картинки (1184 на 740), получилось 1 к 0.625, так и установил соотношение. Индексы для затемнения и ссылки */
+

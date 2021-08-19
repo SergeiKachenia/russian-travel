@@ -2,4 +2,28 @@
     max-width: 176px;
     max-height: 52px;
     padding: 28px 0 0 48px;
+    margin: 0;
 }
+
+@media all and (max-width:767px) {
+    .header__logo {
+        padding: 28px 0 0 24px;
+    }
+}
+
+@media all and (max-width:670px) {
+    .header__logo {
+        max-width: 156px;
+        max-height: 46px;
+    }
+}
+
+@media all and (max-width:319px) {
+    .header__logo {
+        max-width: 142px;
+        max-height: 42px;
+        padding: 16px 0 0 16px;
+    }
+}
+
+/*уменьшал лого два раза, чтобы смотрелось аккуратнее на малых разрешениях*/

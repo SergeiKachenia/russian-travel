@@ -1,9 +1,38 @@
 .photo-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-rows: auto;
     gap: 16px 16px;
-    max-width: 1184px;
     margin: 0 auto;
-
+    padding-bottom: 92px;
+    width: 92.5%;
+    max-width: 1184px;
 }
+
+@media all and (max-width:1023px) {
+    .photo-grid {
+        max-width: 90%;
+        margin: 0 auto;
+        gap: 14px 14px;
+    }
+}
+
+@media all and (max-width:768px) {
+    .photo-grid {
+        max-width: 93%;
+        margin: 0 auto;
+        gap: 16px 16px;
+    }
+}
+
+@media all and (max-width:319px) {
+    .photo-grid {
+        max-width: 90%;
+        margin: 0 auto;
+        gap: 16px 12px;
+        padding-bottom: 64px;
+    }
+}
+
+/*автоматический грид, подстраивается под разрешение экрана, ширина указана в пикселях, высчитана при помощи соотношения ширины блока к ширине страницы.
+Установил максимальную ширину в пикселях, чтобы блок не расползался на больших экранах, и обычную в процентах для более мелких разрешений*/

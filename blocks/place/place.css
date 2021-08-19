@@ -1,0 +1,47 @@
+.place {
+  display: grid;
+  gap: 0 40px;
+  grid-template-areas: "title website" "image paragraph";
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.place:last-of-type {
+  padding-bottom: 92px;
+}
+
+@media all and (max-width:1023px) {
+  .place {
+    max-width: 100%;
+    margin: 0 auto;
+    gap: 0 32px;
+  }
+}
+
+@media all and (max-width:767px) {
+  .place {
+    max-width: 100%;
+    gap: 0 28px;
+    padding-bottom: 73px;
+  }
+}
+
+@media all and (max-width:670px) {
+  .place {
+    max-width: 100%;
+    grid-template-areas: "title" "website" "image" "paragraph";
+    padding-bottom: 50px;
+    margin: 0;
+  }
+}
+
+@media all and (max-width:319px) {
+  .place {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .place:last-of-type {
+    padding-bottom: 66px;
+  }
+}
+/*использовал areas, так показалось проще всего. На разрешении 670 решил уже сделать данный блок колонкой, т.к. контент вылазил за границы страницы.*/

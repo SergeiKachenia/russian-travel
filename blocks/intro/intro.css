@@ -6,3 +6,28 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+@media all and (max-width:1023px) {
+    .intro {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width:767px) {
+    .intro {
+        padding-top: 88px;
+        max-width: 93%;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width:319px) {
+    .intro {
+        padding-top: 64px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/*задал максимальную ширину в пикселях для десктопа, дальше в процентах высчитывал по пропорции самостоятельно, получилось резиново*/

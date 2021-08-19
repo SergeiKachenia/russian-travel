@@ -1,0 +1,39 @@
+.footer {
+  max-width: 1184px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 92px 0 24px;
+  box-sizing: border-box;
+}
+
+@media all and (max-width:1023px) {
+  .footer {
+    max-width: 90%;
+  }
+}
+
+@media all and (max-width:767px) {
+  .footer {
+    max-width: 93%;
+    padding: 88px 0 0;
+  }
+}
+
+@media all and (max-width:670px) {
+  .footer {
+    max-width: 90%;
+    padding: 76px 0 0;
+    flex-direction: column;
+    margin: 0 0 0 16px;
+  }
+}
+
+@media all and (max-width:319px) {
+  .footer {
+    padding: 64px 0 0;
+  }
+}
+
+/*ширина в процентах высчитана самостоятельно по пропорции отступов к ширине самого блока. Показалось лаконичнее чем с calc.*/
