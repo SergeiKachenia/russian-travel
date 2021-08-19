@@ -9,3 +9,4 @@
 ## **Использованы языки программирования:**
 * HTML;
 * CSS. 
+## [Ссылка на этот проект в GitHub Pages](https://sergeikachenia.github.io/russian-travel/)
