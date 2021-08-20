@@ -1,22 +1,18 @@
 .header__links {
-    padding: 46px 48px 0 0;
+    margin: 46px 48px 0 0;
+    padding: 0;
+    list-style-type: none;
 }
 
-@media all and (max-width:1023px) {
+@media all and (max-width:768px) {
     .header__links {
-        margin-bottom: 48px;
+        margin: 46px 24px 0 0;
     }
 }
 
-@media all and (max-width:767px) {
+@media all and (max-width:320px) {
     .header__links {
-        padding: 46px 24px 0 0;
-    }
-}
-
-@media all and (max-width:319px) {
-    .header__links {
-        padding: 30px 16px 0 0;
+        margin: 30px 16px 0 0;
     }
 }
 

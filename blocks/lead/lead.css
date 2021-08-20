@@ -6,19 +6,19 @@
     max-width: 984px;
 }
 
-@media all and (max-width:1023px) {
+@media all and (max-width:1024px) {
     .lead {
-        max-width: 90%;
+        max-width: 90.625%;
     }
 }
 
-@media all and (max-width:767px) {
+@media all and (max-width:768px) {
     .lead {
         max-width: 768px;
     }
 }
 
-@media all and (max-width:319px) {
+@media all and (max-width:320px) {
     .lead {
         max-width: 90%;
     }

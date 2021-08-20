@@ -4,29 +4,27 @@
     max-width: 690px;
     padding-top: 92px;
     box-sizing: border-box;
-    margin: 0;
+    margin-left: 11.56%;
 }
 
-@media all and (max-width:1023px) {
+@media all and (max-width:1024px) {
     .intro {
-        max-width: 90%;
-        margin: 0 auto;
+        margin-left: 4.7%;
     }
 }
 
-@media all and (max-width:767px) {
+@media all and (max-width:768px) {
     .intro {
         padding-top: 88px;
-        max-width: 93%;
+        max-width: 93.75%;
         margin: 0 auto;
     }
 }
 
-@media all and (max-width:319px) {
+@media all and (max-width:320px) {
     .intro {
         padding-top: 64px;
         max-width: 90%;
-        margin: 0 auto;
     }
 }
 

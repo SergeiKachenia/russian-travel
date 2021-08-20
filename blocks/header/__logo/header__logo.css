@@ -1,28 +1,28 @@
 .header__logo {
     max-width: 176px;
     max-height: 52px;
-    padding: 28px 0 0 48px;
-    margin: 0;
+    margin: 28px 0 0 48px;
+    padding: 0;
 }
 
-@media all and (max-width:767px) {
+@media all and (max-width:768px) {
     .header__logo {
-        padding: 28px 0 0 24px;
+        margin: 28px 0 0 24px;
     }
 }
 
-@media all and (max-width:670px) {
+@media all and (max-width:680px) {
     .header__logo {
         max-width: 156px;
         max-height: 46px;
     }
 }
 
-@media all and (max-width:319px) {
+@media all and (max-width:320px) {
     .header__logo {
         max-width: 142px;
         max-height: 42px;
-        padding: 16px 0 0 16px;
+        margin: 16px 0 0 16px;
     }
 }
 

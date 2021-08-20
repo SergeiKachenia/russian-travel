@@ -1,23 +1,30 @@
 .place__image {
   grid-area: image;
   max-width: 460px;
+  width: 100%;
   object-fit: contain;
 }
 
-@media all and (max-width:1023px) {
+@media all and (max-width:1024px) {
   .place__image {
     max-width: 440px;
   }
 }
 
-@media all and (max-width:767px) {
+@media all and (max-width:860px) {
+  .place__image {
+    max-width: 370px;
+  }
+}
+
+@media all and (max-width:768px) {
   .place__image {
     max-width: 340px;
     margin: 0 auto;
   }
 }
 
-@media all and (max-width:670px) {
+@media all and (max-width:680px) {
   .place__image {
     max-width: 320px;
     padding-bottom: 32px;
@@ -25,7 +32,7 @@
   }
 }
 
-@media all and (max-width:319px) {
+@media all and (max-width:320px) {
   .place__image {
     margin: 0 auto;
   }

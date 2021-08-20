@@ -7,25 +7,20 @@
     max-width: 984px;
 }
 
-@media all and (max-width:1023px) {
+@media all and (max-width:1024px) {
     .places {
-        max-width: 90%;
+        max-width: 90.625%;
         margin: 0 auto;
     }
 }
 
-@media all and (max-width:767px) {
+@media all and (max-width:768px) {
     .places {
-        max-width: 93%;
+        max-width: 93.75%;
     }
 }
 
-@media all and (max-width:670px) {
-    .places {
-        max-width: 93%;
-    }
-}
-@media all and (max-width:319px) {
+@media all and (max-width:320px) {
     .places {
         max-width: 90%;
 

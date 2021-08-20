@@ -8,29 +8,28 @@
   box-sizing: border-box;
 }
 
-@media all and (max-width:1023px) {
+@media all and (max-width:1024px) {
   .footer {
-    max-width: 90%;
+    max-width: 90.625%;
+    margin: 0 auto;
   }
 }
 
-@media all and (max-width:767px) {
+@media all and (max-width:768px) {
   .footer {
-    max-width: 93%;
+    max-width: 93.75%;
     padding: 88px 0 0;
   }
 }
 
-@media all and (max-width:670px) {
+@media all and (max-width:680px) {
   .footer {
-    max-width: 90%;
     padding: 76px 0 0;
     flex-direction: column;
-    margin: 0 0 0 16px;
   }
 }
 
-@media all and (max-width:319px) {
+@media all and (max-width:320px) {
   .footer {
     padding: 64px 0 0;
   }

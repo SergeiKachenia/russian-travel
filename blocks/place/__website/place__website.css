@@ -1,27 +1,22 @@
 .place__website {
   grid-area: website;
-  margin: 0;
-  padding: 0 0 48px;
+  padding: 0;
+  margin: 0 0 48px;
   align-self: end;
   max-width: 456px;
   box-sizing: border-box;
 }
 
-@media all and (max-width:767px) {
+@media all and (max-width:768px) {
   .place__website {
     max-width: 352px;
+    margin: 0 0 40px;
   }
 }
 
-@media all and (max-width:670px) {
-  .place__website {
-    padding: 0 0 32px;
-  }
-}
-
-@media all and (max-width:319px) {
+@media all and (max-width:320px) {
   .place__website {
     max-width: 288px;
-    padding: 0 0 32px 16px;
+    margin: 0 0 32px;
   }
 }

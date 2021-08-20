@@ -7,6 +7,7 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  min-width: 320px;
 }
 
 /*шрифты и цвет, также сгладил шрифты и оптимизировал их читаемость*/
