@@ -1,3 +1,7 @@
 .header__list {
   display: inline-block;
 }
+
+.header__list:first-of-type {
+  margin-right: 18px;
+}

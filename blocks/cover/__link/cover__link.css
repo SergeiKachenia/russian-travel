@@ -1,10 +1,8 @@
 .cover__link {
   text-decoration: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  width: inherit;
+  min-height: inherit;
+  position: relative;
   z-index: 4;
   display: flex;
   flex-direction: column;
@@ -12,4 +10,3 @@
 
 }
 
-/*расположил ссылку абсолютно и задал параметры, чтобы она закрывала весь блок cover,в том числе и текстовые элементы, и чтобы нажать можно было в любую точку блока*/
