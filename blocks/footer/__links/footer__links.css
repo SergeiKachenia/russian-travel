@@ -9,19 +9,30 @@
   gap: 18px;
 }
 
-@media all and (max-width:680px) {
+.footer__links:first-of-type {
+  margin-left: 48px;
+}
+
+@media all and (max-width:1024px) {
+.footer__links:first-of-type {
+  margin-left: 0;
+}
+
+}
+
+
+@media all and (max-width: 680px) {
   .footer__links {
     grid-template-columns: minmax(min-content, max-content);
     gap: 26px;
     margin-bottom: 40px;
+    }
   }
-}
 
 @media all and (max-width:320px) {
   .footer__links {
     gap: 32px;
     margin-bottom: 48px;
+    }
   }
-}
-
-/*решил изменить футер уже с разрешения 670, т.к. элементы накладываются друг на друга на разрешении меньше 670*/
+  /*решил изменить футер уже с разрешения 670, т.к. элементы накладываются друг на друга на разрешении меньше 670*/

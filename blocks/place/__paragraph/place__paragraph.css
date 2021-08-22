@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   max-width: 484px;
+  min-width: 288px;
 }
 
 .place__paragraph:first-of-type {

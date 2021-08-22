@@ -23,7 +23,7 @@
 
 @media all and (max-width:420px) {
   .cover__title {
-    max-width: 80%;
+    max-width: 345px;
     font-size: 40px;
     line-height: 109%;
     padding: 0 0 20px;

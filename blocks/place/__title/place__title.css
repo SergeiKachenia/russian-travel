@@ -6,6 +6,7 @@
   font-size: 72px;
   line-height: 106%;
   max-width: 460px;
+  min-width: 288px;
   margin: 0 0 48px;
   padding: 0;
   align-self: end;
@@ -38,6 +39,6 @@
     max-width: 288px;
     font-size: 32px;
     line-height: 109%;
-    margin: 0 0 32px;
+    margin: 0 auto 32px;
   }
 }
